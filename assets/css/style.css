@@ -1,12 +1,12 @@
 body{
-    color:black;
+    color:#777777;
     background-color:#cccccc;
     font-family: helvetica;
 }
 
 h1{
     font-size: 30px;
-    color: rgb(0, 64, 83);
+    color: #4aaaa5;
     border-bottom: solid #cccccc;
 }
 
@@ -15,7 +15,7 @@ p {
 }
 
 footer{
-    background-color: #777777;
+    background-color: #666666;
     color: #ffffff;
     text-align: center;
     height: 25px;
@@ -23,8 +23,16 @@ footer{
     padding-top: 20px;
     position: fixed;
     bottom: 0;
-    border-top: solid 5px rgb(0, 64,83);
+    border-top: solid 5px #4aaaa5;
     bottom: 0px;
+}
+
+button{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding:15px 30px;
+    font-size: 15px;
+    text-align: center;
 }
 
 .headerbar{
@@ -37,7 +45,7 @@ footer{
 }
 
 .nameplate{
-    background-color:rgb(0, 64, 83);
+    background-color:#4aaaa5;
     color:#ffffff;
     font-size: 25px;
     position: relative;
@@ -58,7 +66,7 @@ footer{
 }
 
 #profpic{
-    border:solid black 1px;
+    border:solid #777777 1px;
     margin-right: 20px;
     margin-left: 20px;
     clear: both;
@@ -68,6 +76,7 @@ footer{
 }
 .contentbody{
     background-color: #ffffff;
+    border: solid 1px #777777;
     width:960px;
     padding: 10px;
     position: absolute;
